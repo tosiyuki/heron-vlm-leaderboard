@@ -3,10 +3,10 @@ defaults:
   - _self_
 
 model:
-  pretrained_model_name_or_path: "claude-3-5-sonnet-20240620"
+  pretrained_model_name_or_path: "toshi456/llava-jp-1.3b-v1.1"
 
 wandb:
  log: true
- entity: "vision-language-leaderboard"
+ entity: "toshi_456"
  project: "heron-leaderboard"
- run_name: "claude-3-5-sonnet-20240620"
+ run_name: "llava-jp-1.3b-v1.1"

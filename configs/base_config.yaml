@@ -14,7 +14,7 @@ device_id: 0
 
 generation:
   args:
-    max_length: 512
-    temperature: 0.7
-    do_sample: true
-    no_repeat_ngram_size: 3
+    max_length: 256
+    temperature: 0.
+    do_sample: false
+    no_repeat_ngram_size: 2
